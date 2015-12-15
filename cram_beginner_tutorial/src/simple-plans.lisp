@@ -44,4 +44,3 @@
                (calculate-angular-cmd goal))
              (wait-duration 0.1)))
       (send-vel-cmd 0 0))))
-
