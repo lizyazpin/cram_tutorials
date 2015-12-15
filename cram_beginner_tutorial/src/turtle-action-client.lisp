@@ -37,4 +37,3 @@
            (make-shape-action-goal edges radius))))
     (roslisp:ros-info (turtle-shape-action-client) "Nav action finished.")
     (values result status)))
-
