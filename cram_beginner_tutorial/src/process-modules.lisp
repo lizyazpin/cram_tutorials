@@ -25,7 +25,7 @@
       (with-turtle-process-modules
         (cpm:process-module-alias :manipulation 'turtle-actuators)
           (cram-language-designator-support:with-designators
-            ((trajectory (action `((type shape) (shape hexagon) (radius ,r)))))
+            ((trajectory :action `((type shape) (shape hexagon) (radius ,r))))
             (cpm:pm-execute :manipulation trajectory))))))
 
 (cram-process-modules:def-process-module turtle-navigation (location-designator)
@@ -44,4 +44,3 @@
       (cpm:with-process-modules-running (turtle-navigation)
         (cpm:process-module-alias :navigation 'turtle-navigation)
             (cpm:pm-execute :navigation location-desig)))))
-
