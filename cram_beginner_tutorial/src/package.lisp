@@ -6,7 +6,7 @@
         #:roslisp
         #:cl-transforms
         #:cram-designators)
-  (:import-from #:cram-reasoning #:<-)
+  (:import-from #:cram-prolog #:<-)
 
   (:desig-properties
    ;; action properties
