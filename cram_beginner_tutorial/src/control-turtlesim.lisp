@@ -33,4 +33,3 @@
                                                          :x lin)
                                        :angular (make-msg "geometry_msgs/Vector3"
                                                           :z ang))))
-
